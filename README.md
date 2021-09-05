@@ -452,7 +452,7 @@ useEffect(()=>{
     }
     });
 
-##Throttling API requests
+## Throttling API requests
 
 While user changing text we are calling apis everytime Instead of that we can use timer to wait for 500ms for next change if change is not  occur we can call the api
 
