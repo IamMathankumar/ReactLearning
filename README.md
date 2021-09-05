@@ -18,7 +18,7 @@ return "First lesson from function"
 
 `<div>{labelText()}</div>`
 
-##Style
+## Style
 
 In react we can do Inline style, we can call css and we can create js object\
 While using style we can't use styling just like css format instead we should call like the below\
@@ -158,14 +158,14 @@ sit and wait until this component no longer shown
 
 We can move geolocation code inside  `componentDidMount()` as it will call only once
 
-##initialize state without constructor 
+## initialize state without constructor 
 
 we can initialize like below without constructor because babel will create constructor for us.\
 when we are initializing globally **we don't need to use `this`** \ but we should use `this` in constructor  
 `state = {lat: null, lng:null}`
 
 
-##To display style, icon and text dynamically 
+## To display style, icon and text dynamically 
 
 A getSeason function returns "summer" and "winter" based on latitude and current month for north and south side
 
@@ -282,7 +282,7 @@ Normal function
     }
 
 
-##no need parenthesis while calling a function from event handler
+## no need parenthesis while calling a function from event handler
 Because we can use the reference of a function if we avoid to use open close parenthesis
 
 
@@ -362,9 +362,9 @@ Here make sure you are calling ref in top level component or direct child compon
 because it didn't worked for nested childs please check when you are needed 
 
 
-#useState, useEffect, useRef, Navigation
+# useState, useEffect, useRef, Navigation
 
-##UseState
+## UseState
 
 In class component we used `state ={item : null}` state object here in functional component we should use `useState` instead of `state` object
 
@@ -382,12 +382,12 @@ To set a value in useState object we can do like the below
 
 we can use value directly in div component with JS object curly race `{selectedIndex}`
 
-##useEffect `!important`
+## useEffect `!important`
 while using useState, useEffect or useRef we should add it in import statement
 
 `import React, {useState, useEffect} from "react";`
 
-###Useeffect with empty array
+### Useeffect with empty array
     useEffect(()=>{
     }, [])
 
@@ -416,7 +416,7 @@ We can add many object in that array if we want
 
 ## useEffect with async
 We cannot change useEffect as async function we should create a function inside useEffect and then we should call it
-###solution 1 :
+### solution 1 :
 
     useEffect(()=>{
     const search = async () => {
@@ -425,7 +425,7 @@ We cannot change useEffect as async function we should create a function inside 
     search()
     }, [selectedIndex])
 
-###solution 2:
+### solution 2:
  same way we removed variable and added a function inside paranthesis and called the function 
 
     useEffect(()=>{
@@ -434,7 +434,7 @@ We cannot change useEffect as async function we should create a function inside 
     })()
     }, [selectedIndex])
 
-###solution 3: 
+### solution 3: 
 Using promise
 
     useEffect(()=>{
