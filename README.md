@@ -71,7 +71,7 @@ Here we can add many components as well there is no limit to pass only single co
        </ActionCard>
 
 
-# GeoLocation,  class components
+# 3. GeoLocation,  class components
 
 ### Geo location 
 
