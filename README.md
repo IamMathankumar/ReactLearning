@@ -235,7 +235,8 @@ to avoid this we can create new function to hold these conditional statement and
     }
     
     
-    #4 Handling inputs, form and  state object in input plus this operator  
+
+# 4 Handling inputs, form and  state object in input plus this operator  
 
 ## Form on submit
 
